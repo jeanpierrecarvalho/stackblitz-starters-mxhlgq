@@ -1,2 +1,1 @@
-const test = 'This is a test';
-console.log(test);
+[...document.querySelectorAll('.product-card')].map((card) => { card.style.backgroundColor = "red" })
